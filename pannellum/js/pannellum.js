@@ -409,7 +409,7 @@ function onImageLoad() {
     if (!listenersAdded) {
         listenersAdded = true;
         dragFix.addEventListener('mousedown', onDocumentMouseDown, false);
-        container.addEventListener('dblclick', onDocumentDoubleClick, false);
+        dragFix.addEventListener('dblclick', onDocumentDoubleClick, false);
         document.addEventListener('mousemove', onDocumentMouseMove, false);
         document.addEventListener('mouseup', onDocumentMouseUp, false);
         if (config.mouseZoom) {
