@@ -2613,6 +2613,7 @@ this.destroy = function() {
         renderer.destroy()
     if (listenersAdded) {
         dragFix.removeEventListener('mousedown', onDocumentMouseDown, false);
+        dragFix.removeEventListener('dblclick', onDocumentDoubleClick, false);
         document.removeEventListener('mousemove', onDocumentMouseMove, false);
         document.removeEventListener('mouseup', onDocumentMouseUp, false);
         container.removeEventListener('mousewheel', onDocumentMouseWheel, false);
