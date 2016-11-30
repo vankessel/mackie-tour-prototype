@@ -22,14 +22,14 @@ var config = {
           "yaw": 87.04141933983021,
           "type": "scene",
           "text": "Forest Hut",
-          "sceneId": "forest hut"
+          "sceneId": "forest_hut"
         },
         {
           "pitch": -3.472228516905798,
           "yaw": -92.526284308314,
           "type": "scene",
           "text": "Hotel Room",
-          "sceneId": "hotel"
+          "sceneId": "hotel_room"
         },
         {
           "pitch": 1.8928534777946109,
@@ -40,7 +40,7 @@ var config = {
       ]
     },
 
-    "forest hut": {
+    "forest_hut": {
       "description": "This is a cool little hut in the forest.",
       "title": "Forest Hut",
       "pitch": -17.302010546386786,
@@ -70,7 +70,7 @@ var config = {
       ]
     },
 
-    "hotel": {
+    "hotel_room": {
       "description": "This is a hotel room",
       "title": "Hotel Room",
       "pitch": -42.73142436755333,
